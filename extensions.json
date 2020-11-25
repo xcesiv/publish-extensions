@@ -72,6 +72,11 @@
       "repository": "https://github.com/ember-tooling/prettier-for-handlebars-vscode"
     },
     {
+      "id": "AmazonWebServices.aws-toolkit-vscode",
+      "download": "https://github.com/aws/aws-toolkit-vscode/releases/download/v1.15.0/aws-toolkit-vscode-1.15.0.vsix",
+      "version": "1.15.0"
+    },
+    {
       "id": "Angular.ng-template",
       "download": "https://github.com/angular/vscode-ng-language-service/releases/download/v0.1100.1/ngls.vsix",
       "version": "0.1100.1"
@@ -363,8 +368,8 @@
     },
     {
       "id": "esbenp.prettier-vscode",
-      "download": "https://github.com/prettier/prettier-vscode/releases/download/v5.7.2/prettier-vscode-5.7.2.vsix",
-      "version": "5.7.2"
+      "download": "https://github.com/prettier/prettier-vscode/releases/download/v5.8.0/prettier-vscode-5.8.0.vsix",
+      "version": "5.8.0"
     },
     {
       "id": "ethan-reesor.vscode-go-test-adapter",
@@ -1260,7 +1265,7 @@
       "repository": "https://github.com/vshaxe/hxcpp-debugger",
       "version": "1.2.4",
       "checkout": "1.2.4",
-      "prepublish": "npm install haxe && npx haxelib install vscode-debugadapter vscode"
+      "prepublish": "npm install haxe && npx haxelib install vscode-debugadapter && npx haxelib install vscode"
     },
     {
       "id": "vsls-contrib.codetour",
@@ -1344,11 +1349,19 @@
       "id": "shyykoserhiy.git-autoconfig",
       "repository": "https://github.com/ShyykoSerhiy/git-autoconfig"
     },
+<<<<<<< HEAD
     {
       "id": "ahmadawais.emoji-log",
       "repository": "https://github.com/ahmadawais/Emoji-Log",
       "version": "0.7.0",
       "checkout": "v0.7.0"
+=======
+    {	
+      "id": "ahmadawais.emoji-log",	
+      "repository": "https://github.com/ahmadawais/Emoji-Log-VSCode",	
+      "version": "1.0.0",	
+      "checkout": "v1.0.0"	
+>>>>>>> upstream/master
     }
   ]
 }
